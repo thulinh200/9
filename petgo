@@ -14,8 +14,11 @@ getgenv().petsGoConfig = {
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1300082928461807698/N38_DDRONoCRHoRnCCQU9nW_OfnlURFU2tY4sekhsAtF2H5IzOB29HWPAo0HLHHHNliV",
     DISCORD_ID = "1218088252964339745",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 500000000, -- Minimum Pet Odds To Trigger Webhook
-   
+
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
+    
+    -- Allowed enchant keywords : Criticals, Loot, Speed, Strength, Chests, Diamonds, Huges, Lightning, TNT
+    PICKAXE_ENCHANTS = {"Criticals", "Speed", "Speed"},
     
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
